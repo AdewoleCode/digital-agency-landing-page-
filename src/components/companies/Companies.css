@@ -1,0 +1,45 @@
+.companies-container {
+    width: 720px;
+    margin: 0 auto;
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+}
+
+.companies-container p {
+    font-size: 0.7rem;
+    margin: 0 auto;
+    color: rgba(102, 112, 133, 1);
+    margin-bottom: 0.4rem;
+}
+
+.companies-container .logo-images-container {
+    background: rgba(246, 246, 246, 1);
+    padding-top: 0.5rem;
+    padding-bottom: 0.3rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    gap: 5rem;
+}
+
+.companies-container .logo-images-container .img-box {
+    object-fit: contain;
+}
+
+.companies-container .logo-images-container img {
+    width: 90px;
+    height: 40px;
+    object-fit: contain;
+}
+
+.companies-container .logo-images-container .slack{
+    width: 90px;
+    height: 35px;
+    object-fit: contain;
+}
+
+.companies-container .logo-images-container .zoom {
+    width: 70px;
+    height: 35px;
+    object-fit: contain;
+}
