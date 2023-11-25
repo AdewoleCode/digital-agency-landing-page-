@@ -3,6 +3,10 @@ import "./Home.css"
 import HomeHero from "../../assets/home-hero.png"
 import Companies from '../../components/companies/Companies'
 import Branding from '../../components/branding/Branding'
+import Custom from '../../components/custom/Custom.'
+import Testimonials from '../../components/testimonials/Testimonials'
+import Contact from '../../components/contact/Contact'
+import Footer from '../../components/footer/Footer'
 
 const Home = () => {
     return (
@@ -21,6 +25,10 @@ const Home = () => {
             </div>
             <Companies />
             <Branding />
+            <Custom />
+            <Testimonials />
+            <Contact />
+            <Footer />
         </>
 
     )

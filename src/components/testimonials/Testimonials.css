@@ -1,0 +1,49 @@
+
+.testimonials-container {
+    margin-top: 3.5rem;
+    min-height: 450px;
+    text-align: center;
+}
+
+.testimonials-container p {
+    color: rgba(39, 45, 56, 1);
+    margin: 0.5rem 0;
+    font-size: 0.7rem;
+}
+
+.testimonials-container h4 {
+    width: 25%;
+    margin: 0 auto;
+    color: rgba(39, 45, 56, 1);
+    font-size: 1.6rem; 
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.testimonials-container .card-container {
+    margin-top: 2rem;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.testimonials-container .card-container .card {
+    background: rgba(246, 246, 246, 1);
+    width: 300px;
+    border-radius: 10px;
+    padding: 1.2rem 0.6rem;
+}
+
+.testimonials-container .card-container .card h5 {
+    color: rgba(39, 45, 56, 1);
+    font-size: 19px;
+    margin: 0 0 0.7rem 0;
+    font-weight: 600;
+}
+
+.testimonials-container .card-container .card p {
+    color: rgba(39, 45, 56, 1);
+    font-size: 15px;
+}

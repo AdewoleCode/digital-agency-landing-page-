@@ -1,0 +1,54 @@
+.footer-container {
+    background: rgba(246, 246, 246, 1);
+    margin-top: 3rem;
+    padding: 1rem 0;
+}
+
+.footer-container .group {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer-container .foot-group {
+    flex-basis: 15%;
+}
+
+.footer-container .foot-group-1 {
+    flex-basis: 20%;
+}
+
+.footer-container .foot-group-1 h4 {
+    color: rgba(39, 45, 56, 1);
+    font-size: 17px;
+}
+
+.footer-container .foot-group h4 {
+    color: rgba(39, 45, 56, 1);
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.footer-container .foot-group p {
+    font-size: 15px;
+}
+
+.footer-container .foot-group-1 p {
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.footer-container .foot-group p {
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.footer-container .footer-tag {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 300;
+    cursor: pointer;
+    margin-top: 2rem;
+}

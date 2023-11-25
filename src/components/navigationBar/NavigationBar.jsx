@@ -24,10 +24,10 @@ const NavigationBar = () => {
                 </Link>
 
                 <nav ref={navRef}>
-                    <Link className="anchor" to="/about">About</Link>
-                    <Link className="anchor" to="/HowItWorks">How It Works</Link>
-                    <Link className="anchor" to="/testimonials">Testimonial</Link>
-                    <Link className="anchor contact" to="/contact">Contact</Link>
+                    <Link className="anchor" to="">Home</Link>
+                    <Link className="anchor" to="">About</Link>
+                    <Link className="anchor" to="">Testimonial</Link>
+                    <Link className="anchor contact" to="">Contact</Link>
 
                     {/* mobile close btn */}
                     <button
