@@ -7,6 +7,7 @@
 .footer-container .group {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -51,4 +52,12 @@
     font-weight: 300;
     cursor: pointer;
     margin-top: 2rem;
+}
+
+@media only screen and (max-width: 750px) {
+    /* .footer-container .group {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    } */
 }

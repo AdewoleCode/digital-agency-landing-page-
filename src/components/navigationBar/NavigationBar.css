@@ -12,7 +12,7 @@
 .nav_container .heading-logo {
     font-size: 0.9rem;
     color: rgba(39, 45, 56, 1);
-    
+
 }
 
 header {
@@ -48,8 +48,7 @@ nav a:hover {
 header .nav-btn {
     padding: 5px 10px;
     cursor: pointer;
-    background: #0A1A83;
-    color: #fff;
+    color: rgba(39, 45, 56, 1);
     border: none;
     outline: none;
     display: none;
@@ -58,6 +57,8 @@ header .nav-btn {
     font-weight: 700;
     z-index: 999;
     margin: 0;
+    border: 1px solid rgba(39, 45, 56, 1);
+    border-radius: 4px;
 }
 
 header div,

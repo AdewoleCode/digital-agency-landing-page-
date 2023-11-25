@@ -3,6 +3,7 @@
     margin: 0 auto;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
+    /* border: 1px solid red; */
 }
 
 .companies-container p {
@@ -19,12 +20,14 @@
     padding-bottom: 0.3rem;
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     /* align-items: center; */
     gap: 5rem;
 }
 
 .companies-container .logo-images-container .img-box {
     object-fit: contain;
+    /* border: 1px solid red; */
 }
 
 .companies-container .logo-images-container img {
@@ -43,4 +46,13 @@
     width: 70px;
     height: 35px;
     object-fit: contain;
+}
+
+@media only screen and (max-width: 750px) {
+    .companies-container .logo-images-container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    }
 }
