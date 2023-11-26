@@ -3,7 +3,6 @@
     margin: 0 auto;
     padding: 0.2rem 0.5rem;
     border-radius: 4px;
-    /* border: 1px solid red; */
 }
 
 .companies-container p {
@@ -21,13 +20,11 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    /* align-items: center; */
     gap: 5rem;
 }
 
 .companies-container .logo-images-container .img-box {
     object-fit: contain;
-    /* border: 1px solid red; */
 }
 
 .companies-container .logo-images-container img {
@@ -36,7 +33,7 @@
     object-fit: contain;
 }
 
-.companies-container .logo-images-container .slack{
+.companies-container .logo-images-container .slack {
     width: 90px;
     height: 35px;
     object-fit: contain;
@@ -49,10 +46,23 @@
 }
 
 @media only screen and (max-width: 750px) {
+    .companies-container {
+        width: 500px;
+        margin-top: 3rem;
+    }
+
     .companies-container .logo-images-container {
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         gap: 2rem;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .companies-container {
+        width: 100%;
+        padding: 0.5rem 0.2.5rem;
+    }
+
+    .companies-container .logo-images-container {
+        gap: 3rem;
     }
 }

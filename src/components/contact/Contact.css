@@ -70,5 +70,22 @@
 @media only screen and (max-width: 750px) {
     .contact-container {
         flex-direction: column;
+        gap: 0.5rem;
+
+    }
+
+    .contact-container .contact-right h3{
+        text-align: center;
+    }
+
+    .contact-container .contact-right p {
+        text-align: center;
+    }
+
+    .contact-container .contact-right .button-wrapper {
+        justify-content: center;
+    }
+    .contact-container .contact-right .button-wrapper button {
+        width: 160px;
     }
 }

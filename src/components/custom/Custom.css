@@ -1,6 +1,5 @@
 .custom-container {
     margin-top: 2rem;
-    /* border: 1px solid red; */
     min-height: 450px;
     display: flex;
     justify-content: center;
@@ -46,6 +45,16 @@
 
 @media only screen and (max-width: 750px) {
     .custom-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
+        margin-top: 3rem;
     }
+
+    .custom-container .custom-left h3 {
+        text-align: center;
+    }
+
+    .custom-container .custom-left p {
+        text-align: center;
+    }
+
 }

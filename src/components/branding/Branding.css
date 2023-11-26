@@ -1,16 +1,15 @@
 .branding-container {
     margin-top: 3rem;
-    /* border: 1px solid red; */
     min-height: 450px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 5rem;
+    background: linear-gradient(to left bottom, rgb(210, 210, 245), white);
 }
 
 .branding-container .branding-left {
     flex-basis: 30%;
-    /* border: 1px solid red; */
 }
 
 .branding-container .branding-left .branding-image-box{
@@ -26,7 +25,6 @@
 
 .branding-container .branding-right {
     flex-basis: 30%;
-    /* border: 1px solid red; */
 }
 
 .branding-container .branding-right h3 {
@@ -49,7 +47,15 @@
 
 @media only screen and (max-width: 750px) {
     .branding-container {
-      flex-direction: column;
-        gap: 5rem;
+      flex-direction: column-reverse;
+        gap: 2rem;
+    }
+
+    .branding-container .branding-right h3{
+        text-align: center;
+    }
+
+    .branding-container .branding-right p {
+        text-align: center;
     }
 }

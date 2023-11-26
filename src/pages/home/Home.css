@@ -4,6 +4,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    background: linear-gradient(to right bottom, rgb(210, 210, 245), white);
 }
 
 .home-container .left-home {
@@ -66,8 +67,31 @@
 
 @media only screen and (max-width: 750px) {
     .home-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         /* border: 1px solid red; */
+    }
+
+    .home-container .left-home h3 {
+        margin-top: 4rem;
+        font-size: 2.4rem;
+        text-align: center;
+        margin-bottom: 0.8rem;
+    }
+    
+    .home-container .left-home p {
+        text-align: center;
+    }
+    
+    .home-container .left-home .button-wrapper {
+        justify-content: center
+    }
+    
+    .home-container .left-home .button-wrapper button {
+        width: 160px;
+    }
+
+    .home-container .right-home {
+        margin-top: 3rem;
     }
     
 }
